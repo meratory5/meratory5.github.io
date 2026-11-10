@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conductor</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <p class="dim"><a href="../">meratory5 のアプリ</a></p>
+  <h1>Conductor</h1>
+  <p>Windows 用の常駐アプリです。開発者本人が、自分の PC で個人的に使うために作りました。<br>
+  <span class="en">Conductor is a Windows desktop app. The developer made it for personal use on their own PCs.</span></p>
+
+  <h2>できること / Features</h2>
+  <ul>
+    <li>やること（タスク）の管理と、決めた時刻の通知<br><span class="en">Tasks and reminders with notifications at the chosen time</span></li>
+    <li>朝のまとめ通知（今日の予定とタスク）<br><span class="en">A morning summary of today's events and tasks</span></li>
+    <li>ポモドーロ・タイマー（集中と休憩）<br><span class="en">A pomodoro timer for focus and breaks</span></li>
+    <li>PC での定期実行（ダウンロード、バックアップなど）<br><span class="en">Scheduled jobs on the PC, such as downloads and backups</span></li>
+  </ul>
+
+  <h2>Google アカウントとの連携 / Google account integration</h2>
+  <p>ユーザーが自分で許可した場合だけ、Google カレンダーの予定と Google ToDo リストのタスクを<strong>読み取り</strong>、Conductor の画面に表示し、予定の前に PC で通知します。Google のデータを書き換えたり、どこかへ送ったりはしません。<br>
+  <span class="en">Only when the user grants access, Conductor <strong>reads</strong> events from Google Calendar and tasks from Google Tasks, shows them in the app, and notifies the user on the PC before events. It does not change Google data and does not send it anywhere.</span></p>
+  <table>
+    <tr><th>許可の範囲 / Scope</th><th>使い道 / Purpose</th></tr>
+    <tr><td><code>calendar.readonly</code></td><td>今日から2週間先までの予定を、一覧と通知に使う<br><span class="en">Show upcoming events (next two weeks) and notify before them</span></td></tr>
+    <tr><td><code>tasks.readonly</code></td><td>未完了のタスクを、一覧と朝のまとめに使う<br><span class="en">Show open tasks in the list and in the morning summary</span></td></tr>
+  </table>
+  <p>読み取ったデータと認証情報は、ユーザーの PC の中だけに保存します。開発者のサーバーはありません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。<br>
+  <span class="en">Data and credentials stay on the user's PC only. There is no developer server. See the <a href="privacy.html">Privacy Policy</a>.</span></p>
+
+  <p class="links"><a href="privacy.html">プライバシーポリシー / Privacy Policy</a> ・ <a href="terms.html">利用規約 / Terms of Service</a></p>
+
+  <footer>
+    <p>問い合わせ / Contact: <a href="https://github.com/meratory5/meratory5.github.io/issues">GitHub Issues</a></p>
+  </footer>
+</main>
+</body>
+</html>
